@@ -1,5 +1,5 @@
 //Space Shuttle Launch Program ver. 1.1
-//Created July 6, 2017 by Atomoxide
+//Created July 6, 2017 by Ziyang Yuan Atomoxide
 
 RCS on.
 SAS off.
