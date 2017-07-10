@@ -1,4 +1,4 @@
-//Space Shuttle Launch Program ver. 1.1
+//Space Shuttle Launch Program ver. 1.2
 //Created July 6, 2017 by Ziyang Yuan Atomoxide
 
 RCS on.
@@ -231,9 +231,9 @@ until phase = 0	//exit phase
 	else if phase = 8	//phase 8: check orbit, finalize sequence
 	{
 		print "Description: Check Orbit and Finalize." at (3,19).
-		ag2 on.
 		unlock steering.
 		unlock throttle.
+		set ship:control:pilotmainthrottle to 0.
 		rcs off.
 		if (ship:apoapsis > 1.1*targetAP or ship:apoapsis < 0.9*targetAP)
 		{
@@ -265,10 +265,4 @@ until phase = 0	//exit phase
 	print "Periapsis: " + round(ship:periapsis,3) + " m " at (3,7).
 	print "Phase: " + phase at (3,18).
 }
-
-
-
-
-
-
 
