@@ -1,4 +1,4 @@
-//Space Shuttle Land Program ver. 0.2
+//Space Shuttle Deorbit Program ver. 0.2
 //Created July 9, 2017 by Ziyang Yuan Atomoxide
 
 
