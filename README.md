@@ -5,3 +5,5 @@ This project creates a US Space Shuttle Style vessel in Kerbal Space Program wit
 launch.ks = launching script.
 
 land.ks = landing script.
+
+Others are subscripts.
